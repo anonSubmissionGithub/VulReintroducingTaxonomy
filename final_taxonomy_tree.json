@@ -1,0 +1,191 @@
+{
+  "name": "Vulnerabilities",
+  "children": [
+    {
+      "name": "Buffer Overflow (96)",
+      "children": [
+        {
+          "name": "Incorrect pointer arithmetic / advancement (4)",
+          "value": 4
+        },
+        {
+          "name": "Incorrect truncation logic (2)",
+          "value": 2
+        },
+        {
+          "name": "Integer overflow leading to buffer overflow (15)",
+          "value": 15
+        },
+        {
+          "name": "Missing or incomplete bounds checking (74)",
+          "value": 74
+        },
+        {
+          "name": "Off-by-one errors (1)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Input Validation (72)",
+      "children": [
+        {
+          "name": "Incomplete validation of user input (66)",
+          "value": 66
+        },
+        {
+          "name": "Insufficient parameter validation (2)",
+          "value": 2
+        },
+        {
+          "name": "Missing length checks (3)",
+          "value": 3
+        },
+        {
+          "name": "Unchecked duplicate entry allocations (1)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Integer Overflow/Underflow (6)",
+      "children": [
+        {
+          "name": "Incomplete bounds checking during arithmetic (3)",
+          "value": 3
+        },
+        {
+          "name": "Unchecked decrement of loop variables (1)",
+          "value": 1
+        },
+        {
+          "name": "Underflow in bounds checks (2)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Memory Leak (24)",
+      "children": [
+        {
+          "name": "Double free issues (2)",
+          "value": 2
+        },
+        {
+          "name": "Improper resource cleanup on error paths (21)",
+          "value": 21
+        },
+        {
+          "name": "Unreleased mutex locks (1)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Use-After-Free (23)",
+      "children": [
+        {
+          "name": "Uninitialized pointer use after cleanup (23)",
+          "value": 23
+        }
+      ]
+    },
+    {
+      "name": "Race Condition (45)",
+      "children": [
+        {
+          "name": "Improper locking (2)",
+          "value": 2
+        },
+        {
+          "name": "Race conditions in resource cleanup (43)",
+          "value": 43
+        }
+      ]
+    },
+    {
+      "name": "Privilege Escalation (9)",
+      "children": [
+        {
+          "name": "Incorrect namespace capability checks (2)",
+          "value": 2
+        },
+        {
+          "name": "Insufficient capability checks (6)",
+          "value": 6
+        },
+        {
+          "name": "Unrestricted /proc file descriptor handling (1)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Denial-of-Service (19)",
+      "children": [
+        {
+          "name": "Denial of service via race-based crashes (9)",
+          "value": 9
+        },
+        {
+          "name": "Excessive memory allocations (8)",
+          "value": 8
+        },
+        {
+          "name": "Excessive recursion limits (1)",
+          "value": 1
+        },
+        {
+          "name": "Persistent validation bubbles (1)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Memory Corruption (14)",
+      "children": [
+        {
+          "name": "Memory corruption during buffer clearing (14)",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "name": "Other (82)",
+      "children": [
+        {
+          "name": "Cryptographic validation vulnerabilities (2)",
+          "value": 2
+        },
+        {
+          "name": "Filesystem integrity vulnerabilities (2)",
+          "value": 2
+        },
+        {
+          "name": "Improper IPv6 address handling (1)",
+          "value": 1
+        },
+        {
+          "name": "Kernel stack information leaks (3)",
+          "value": 3
+        },
+        {
+          "name": "Miscellaneous / unique patterns (68)",
+          "value": 68
+        },
+        {
+          "name": "Missing NULL checks (2)",
+          "value": 2
+        },
+        {
+          "name": "Reading uninitialized memory (3)",
+          "value": 3
+        },
+        {
+          "name": "Session fixation vulnerabilities (1)",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
